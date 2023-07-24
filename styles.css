@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+input, select, button, textarea {
+  max-width: 100%;
+}
+
+meter, progress, output {
+  max-width: 100%;
+}
+
+div#tswsidecol {
+  float: right;
+  width: 20%;
+  color: white;
+  background-color: black;
+}
+
+div#tswcontent {
+  float: right;
+  width: 80%;
+  color: white;
+  background-color: black;
+}
+
+@media only screen and ( max-width : 629px ) {
+  div#tswsidecol {
+    float: none;
+    width: 100%;
+  }
+  div#tswcontent {
+    float: none;
+    width: 100%;
+  }
+}
+
+div#tswcontproper {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+div#tswcontainer {
+  color: ;
+  background-color: black;
+}
+
+div#tswsideproper, div#tswothersideproper {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+div#tswheader {
+  color: white;
+  background-color: #060a06;
+}
+
+div#tswfooter {
+  color: white;
+  background-color: black;
+}
+
+#image0 {
+  text-align: left;
+  display: block;
+  image-orientation: from-image;
+  float: right;
+}
+
+#tswsidecolumn {
+  float: left;
+}
+
+#tswsideproper {
+  display: block;
+  visibility: visible;
+  float: left;
+}
+
+#tswwcontproper {
+  font-weight: bold;
+}
+
+#tswcontproper {
+  font-style: normal;
+  font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+#div {
+  background-color: black;
+}
+
+#body {
+  background-color: black;
+}
+
