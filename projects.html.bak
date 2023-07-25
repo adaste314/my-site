@@ -11,8 +11,9 @@
   </head>
   <body id="body">
     <div id="tswcontainer">
-      <div id="tswheader"> <!-- start of header section: insert your logo, etc, here -->Adam
-        Stepansky's Website <a href="https://users.wpi.edu/%7Eamstepansky/index.html"><img
+      <div id="tswheader">
+        <!-- start of header section: insert your logo, etc, here -->Adam
+        Stepansky's Projects<a href="https://users.wpi.edu/%7Eamstepansky/index.html"><img
 
             src="images/image0.jpeg" alt="Adam Stepansky's Logo" style="width: 71px; height: 83px;"
 
@@ -21,14 +22,14 @@
       <div id="tswcontent">
         <div id="tswcontproper">
           <!-- start of content column: insert your content here -->
-          <h1 id="tswwcontproper">Background</h1>
-          <ul>
-            <li>Born in Hackensack, New Jersey</li>
-            <li>Raised in Plainview, New York</li>
-            <li>Rising senior at Plainview-Old Bethpage John F. Kennedy High
-              School</li>
-            <li>Really cool guy</li>
-          </ul>
+          <h1 id="tswwcontproper">Projects</h1>
+          <ol>
+            <li> Discord bot</li>
+            <li>Google sheets linear regression</li>
+            <li>My research project</li>
+            <li>This website</li>
+            <li>Statistical arbitration bot</li>
+          </ol>
           <p>&nbsp;</p>
           <!-- end of content column: put your content above this line --> </div>
       </div>
@@ -58,5 +59,6 @@
         <!-- end of footer section: insert your copyright notice, etc, above this line -->
       </div>
     </div>
+    
   </body>
 </html>
