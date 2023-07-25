@@ -13,9 +13,9 @@
     <div id="tswcontainer">
       <div id="tswheader">
         <!-- start of header section: insert your logo, etc, here -->Adam
-        Stepansky's Website <a href="https://users.wpi.edu/%7Eamstepansky/index.html"><img
-            src="images/image0.jpeg" alt="Adam Stepansky's Logo" style="width: 71px; height: 83px;"
-            id="image0"></a><!-- end of header section: insert your logo, etc, above this line -->
+        Stepansky's Website <a href="index.html"><img src="images/image0.jpeg"
+
+            alt="Adam Stepansky's Logo" style="width: 71px; height: 83px;" id="image0"></a><!-- end of header section: insert your logo, etc, above this line -->
       </div>
       <div id="tswcontent">
         <div id="tswcontproper">
@@ -38,10 +38,9 @@
           </p>
           <div id="tswcssbuttons">
             <ul>
-              <li><a href="https://users.wpi.edu/%7Eamstepansky/interests.html">My
-                  interests</a></li>
-              <li><a href="https://users.wpi.edu/%7Eamstepansky/hometown.html">My
-                  hometown</a></li>
+              <li><a href="interests.html">My interests</a></li>
+              <li><a href="hometown.html">My hometown</a></li>
+              <li><a href="projects.html">My projects</a></li>
             </ul>
           </div>
           <p></p>
