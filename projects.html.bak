@@ -13,14 +13,13 @@
     <div id="tswcontainer">
       <div id="tswheader">
         <!-- start of header section: insert your logo, etc, here -->Adam
-        Stepansky's Projects<a href="https://users.wpi.edu/%7Eamstepansky/index.html"><img
-            src="images/image0.jpeg" alt="Adam Stepansky's Logo" style="width: 71px; height: 83px;"
-            id="image0"></a><!-- end of header section: insert your logo, etc, above this line -->
+        Stepansky's Projects<a href="index.html"><img src="images/image0.jpeg" alt="Adam Stepansky's Logo"
+            style="width: 71px; height: 83px;" id="image0"></a><!-- end of header section: insert your logo, etc, above this line -->
       </div>
       <div id="tswcontent">
         <div>
           <!-- start of content column: insert your content here -->
-          <h1 id="tswwcontproper">Projects</h1>
+          <h1 id="tswwcontproper">Coding Projects</h1>
           <ol id="tswcontproper">
             <li> <span style="color: white;"><a href="https://github.com/adaste314/discord-bot">Discord
                   bot</a></span></li>
@@ -30,9 +29,14 @@
                   research project</a></span></li>
             <li><span style="color: white;"><a href="https://github.com/adaste314/my-site">This
                   website</a></span></li>
-            <li>Statistical arbitration bot</li>
+            <li><a href="file:///Z:/index.html">Statistical arbitration bot</a></li>
           </ol>
           <p>&nbsp;</p>
+          <h1>School Projects</h1>
+          <ol>
+            <li>Angular momentum video</li>
+            <li>Rube-Goldberg machine</li>
+          </ol>
           <!-- end of content column: put your content above this line --> </div>
       </div>
       <div id="tswsidecol">
@@ -42,12 +46,10 @@
           </p>
           <div id="tswcssbuttons">
             <ul>
-              <li><a href="https://users.wpi.edu/%7Eamstepansky/interests.html">My
-                  interests</a></li>
-              <li><a href="https://users.wpi.edu/%7Eamstepansky/hometown.html">My
-                  hometown</a></li>
-              <li><a href="https://users.wpi.edu/%7Eamstepansky/projects.html">My
-                  projects</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="interests.html">My interests</a></li>
+              <li><a href="hometown.html">My town</a></li>
+              <li><a href="projects.html">My projects</a></li>
             </ul>
           </div>
           <p></p>
