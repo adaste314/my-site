@@ -5,21 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=<1.0>">
     <title>NumGame</title>
+    <link rel="stylesheet" href="numgame.css">
 </head>
 <body onload="loadGame()">
-    <h1>Number Guessing Game</h1>
-    <p>Rules: </p>
-    <ol>
-        <li>Guess a number from 0-100</li>
-        <li>Try to guess the correct number in the least number of guesses</li>
-    </ol>
-    <label>Guess: </label>
-    <input id="guess" type="number" min="0">
-    <button onclick="makeGuess()">GUESS!</button>
+    <div id="tswheader">Adam Stepansky's Website <a href="index.html"><img src="../images/image0.jpeg"
 
-    <br/>
+            alt="Adam Stepansky's Logo" style="width: 71px; height: 83px;" id="image0"></a>
+    <div id="tswcontent">
+        <div id="tswcontproper">
+            <h1>Number Guessing Game</h1>
+            <p>Rules: </p>
+            <ol>
+                <li>Guess a number from 0-100</li>
+                <li>Try to guess the correct number in the least number of guesses</li>
+            </ol>
+            <label>Guess: </label>
+            <input id="guess" type="number" min="0">
+            <button onclick="makeGuess()">GUESS!</button>
+            <br/>
 
-    <p id="report"> </p>
+            <p id="report"> </p>
+        </div>
+    </div>
+
+    <div id="tswsidecol">
+        <div>
+          <p id="tswsideproper" style="text-align: left;"><br>
+          </p>
+          <div id="tswcssbuttons">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../interests.html">My interests</a></li>
+              <li><a href="../hometown.html">My town</a></li>
+              <li><a href="../projects.html">My projects</a></li>
+              <li><a href="../numgame/numgame.html">My guessing game</a></li>
+            </ul>
+          </div>
+          <p></p>
+        </div>
+    </div>
+    
+    <div id="tswfooter">
+        <p>© 2023 Adam Stepansky, coolest guy in the world</p>
+    </div>
 
     <script src="numgame.js"></script>
 </body>
