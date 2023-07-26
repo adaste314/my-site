@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=<1.0>">
+    <title>NumGame</title>
+</head>
+<body onload="loadGame()">
+    <h1>Number Guessing Game</h1>
+    <p>Rules: </p>
+    <ol>
+        <li>Guess a number from 0-100</li>
+        <li>Try to guess the correct number in the least number of guesses</li>
+    </ol>
+    <label>Guess: </label>
+    <input id="guess" type="number" min="0">
+    <button onclick="makeGuess()">GUESS!</button>
+
+    <br/>
+
+    <p id="report"> </p>
+
+    <script src="numgame.js"></script>
+</body>
+</html>
