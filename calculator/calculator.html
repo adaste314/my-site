@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam &amp; Alex</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <label>NUMBER 1: </label>
+    <input type="number" id="num1">
+    <label>NUMBER 2: </label>
+    <input type="number" id="num2">
+    <br/><br/>
+    <button id="add" onclick="addNumbers()">+</button>
+    <button id="sub" onclick="subtractNumbers()">-</button>
+    <button id="mul" onclick="multiplyNumbers()">*</button>
+    <button id="div" onclick="divideNumbers()">/</button>
+    <button id="pow" onclick="powerNumbers()">^</button>
+    <p>RESULT: <span id="result"> </span></p>
+    <p>HISTORY: <span id="history"> </span></p>
+    <script src="calculator.js"></script>
+</body>
+</html>

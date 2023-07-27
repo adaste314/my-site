@@ -1,0 +1,34 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-image: linear-gradient(bisque, white);
+    background-repeat: repeat-x;
+}
+
+button {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.pulse {
+    animation-name: click;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes click {
+    50% {
+        padding-top: .5%;
+        padding-bottom: .5%;
+        padding-left: 3.5%;
+        padding-right: 3.5%; 
+    }
+    0%, 100% {
+        padding-left: 3%;
+        padding-right: 3%; 
+     }
+}
+
+
+
