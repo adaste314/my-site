@@ -13,6 +13,21 @@ function buy(store) {
     if (widget.getAttribute("auto") == 'true') {
         harvest(widget);
         document.getElementById("auto-widget-container").appendChild(widget);
+        // for (let child in document.getElementById("auto-widget-container").childNodes) {
+        //     if (child.style.visibility = "visible") {
+
+        //     }
+        // }
+        if (document.getElementById("auto-widget-container").childNodes.length > 10) {
+            let elms = document.getElementById("auto-widget-container").childNodes;
+            // for (let child in Array.from(document.getElementById("auto-widget-container"))) {
+                for (let i = 0; i < Array.from(elms).length; i++) {
+                    if (Array.from(elms)[i].style.display != "none") {
+                    Array.from(elms)[i].style.display = "none";
+                    break;
+                    }
+            }
+        }       
     } else {
         widget.onclick = () => {
             harvest(widget);
