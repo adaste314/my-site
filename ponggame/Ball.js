@@ -9,11 +9,19 @@ class Ball {
     }
 
     draw(ctx) {
-        // CODE HERE
+        ctx.fillStyle = this.c;
+        ctx.strokeStyle = "black";
+        ctx.lineWidth = 2;
+
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.r, 0, 2*Math.PI);
+        ctx.stroke();
+        ctx.fill();
     }
 
     move() {
-        // CODE HERE
+        this.x += this.vx;
+        this.y += this.vy;
     }
 
     bounceWall() {
