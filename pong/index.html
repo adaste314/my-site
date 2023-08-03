@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rob Pong</title>
+    <title>Ladam Pong</title>
     <link rel="stylesheet" href="pong.css">
 </head>
 <body>
     <h1>LADAM PONG</h1>
+    <ol class="center">
+        <li>Press 'G' to serve the ball</li>
+        <li>First to 18 wins</li>
+        <li>A player trailing by 6 or more will get a power-up</li>
+    </ol>
     <canvas id="gameboard" width="500" height="500"></canvas>
     <div id="scoreboard">0 : 0</div>
-    <button id="reset" onclick="resetGame()">RESET</button>
+    <button id="reset" onclick="resetGame()">START</button>
     <br />
-    <input type="checkbox" id="cpucheck">
+    <input type="checkbox" id="cpucheck" onclick="checkboxChanged()">
     <label>CPU Play</label>
     <input type="checkbox" id="hardmode" disabled="disabled">
     <label>Hard Mode</label>
+    <h1 id="p1">PLAYER 1 WINS</h1>
+    <h1 id="p2">PLAYER 2 WINS</h1>
 
     <script src="Ball.js"></script>
     <script src="Paddle.js"></script>

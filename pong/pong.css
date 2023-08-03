@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    background-image: url("pong\ background.png");
+    background-size: cover;
+}
+li{
+    color:white;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    color:white;
+    text-shadow: 5px 5px black;
+    border-style: solid;
+    border-color:white;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+#scoreboard {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    text-shadow: 2px 2px white;
+    border-style: solid;
+    border-radius: 5px;
+    border-left-color:red;
+    border-right-color: blue;
+    border-top-color:blue;
+    border-bottom-color: red;
+    margin-right: 700px;
+    margin-left: 700px;
+}
+label{
+    color:white;
+}
+#reset {
+    cursor: pointer;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#p1 {
+    display: none;
+} 
+
+#p2 {
+    display: none;
+}
+
+.center {
+    text-align: center;
+    list-style-position: inside;
+  }
+
+canvas{
+    border-style: solid;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-left-color: rgb(0,0,0,0);
+    border-right-color: rgb(0,0,0,0);
+    border-width: 1px;
+    border-radius: 15px;
+  }
